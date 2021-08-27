@@ -8,6 +8,8 @@ public class Note : MonoBehaviour
     public float x;
     public float holdtime;
     public float appeartime;
+    public float speed;
+    public bool showed;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,6 +19,9 @@ public class Note : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (showed)
+        {
+
+        }
     }
 }
