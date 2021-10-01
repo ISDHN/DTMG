@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9089631869101344258}
   - component: {fileID: 4596184127027041966}
+  - component: {fileID: 4484107419367602535}
   m_Layer: 0
   m_Name: tap
   m_TagString: Untagged
@@ -83,3 +84,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &4484107419367602535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5112643171083293427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32f3c76f208cecb4fa24529aee1dd349, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 0
+  shown: 0
+  scored: 1
+  holdtime: 0
+  appeartime: 0
+  judgetime: 0
